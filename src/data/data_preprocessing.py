@@ -128,3 +128,18 @@ class DataPreprocessing:
         plt.title(f"{x} vs {y}")
         plt.show()
         
+        
+    def outliers(self, num_cols):
+        fig, axes = plt.subplots(3, 1, figsize=(5, 5))
+        
+        for i, c in enumerate(num_cols):
+            sns.boxplot(data=self.df, x=c, ax=axes[i], flierprops=dict(markerfacecolor='red'), palette=self.palette)
+            
+        plt.suptitle('Outliers in Numerical Columns')
+        plt.tight_layout()
+        plt.show()
+                        
+                        
+                        
+                        
+       
