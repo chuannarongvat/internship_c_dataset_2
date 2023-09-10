@@ -138,6 +138,8 @@ class DataPreprocessing:
         plt.suptitle('Outliers in Numerical Columns')
         plt.tight_layout()
         plt.show()
+        
+    
                         
                         
                         
