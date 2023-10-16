@@ -15,6 +15,9 @@ matplotlib = "^3.7.2"
 seaborn = "^0.12.2"
 imblearn = "^0.0"
 scipy = "^1.11.2"
+hyperopt = "0.2.7"
+lime = "0.2.0.1"
+xgboost = "1.7.6"
 
 
 [build-system]
